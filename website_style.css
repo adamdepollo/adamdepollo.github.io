@@ -3,6 +3,11 @@
   font-size: 16pt;
   font-weight: bold;
 }
+.worktitle {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+}
 
 .firstPageP {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
