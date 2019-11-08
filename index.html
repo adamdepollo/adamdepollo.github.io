@@ -67,6 +67,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAguxHIAXzZXks7OZEjpVNEzA3mJOLz7o&callback=initMap"
   type="text/javascript"></script>
+  <script>
+//insert this in your jquery
+//control the resizing of menu and go down the content in the correct position
+
+    $("#navMenu").resize(function () {
+        $('#godown').height($("#navMenu").height() + 10);
+    });
+
+    if ($("#navMenu").height() > $('#godown').height()) $('#godown').height($("#navMenu").height() + 10);
+
+</script>
 </body>
 
 </html>
