@@ -12,6 +12,10 @@
   align-content: center;
 }
 
+#godown{
+   height: 60px;
+}
+
 .websiteThumb {
   max-height: 200px;
   max-width: 200px;
