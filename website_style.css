@@ -30,6 +30,10 @@
   max-height: 25% !important;
 }
 
+#codetable {
+  text-align: center;
+}
+
 .gif {
   background-image: url('minefield.gif');
   background-position: center;
