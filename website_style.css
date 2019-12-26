@@ -11,7 +11,7 @@
 }
 */
 #indexBody {
-  background-image: url("me.jpg");
+  background-image: url("/me.jpg");
   background-size: cover;
 /*  background-position: top-left;
   background-size: 1500px;
