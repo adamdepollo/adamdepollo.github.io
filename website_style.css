@@ -1,6 +1,7 @@
+/*
 .firstPageHeader {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-size: 16pt;
+  font-size: 20pt;
   font-weight: bold;
 }
 .worktitle {
@@ -8,11 +9,19 @@
   font-size: 14pt;
   font-weight: bold;
 }
-
+*/
+#indexBody {
+  background-image: url("me.jpg");
+  background-size: cover;
+/*  background-position: top-left;
+  background-size: 1500px;
+  background-repeat:no-repeat;*/
+}
+/*
 .firstPageP {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-
+*/
 .imageDiv {
   align-content: center;
 }
