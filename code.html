@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-ABdnjefqVzESm+f9z9hcqx2cvwvDNjfrwfW5Le9138qHCMGlNmWawyn/tt4jR4ba" crossorigin="anonymous">
   <link rel="stylesheet" href="website_style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="script.js" async></script>
   <title>Adam DePollo | Software</title>
 </head>
 
@@ -49,28 +52,39 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul class="list-group list-group-flush">
-          <table class="table table-sm firstPageP" id="codetable">
-            <tbody>
-              <thead>
-                <tr>
-                  <td width="33%">Java</td>
-                  <td width="33%">Spring MVC</td>
-                  <td width="33%">SQL</td>
-                </tr>
-              </thead>
-              <tr>
-                <td width="33%">Git/GitHub</td>
-                <td width="33%">Hibernate</td>
-                <td width="33%">HTML/CSS</td>
-              </tr>
-              <tr>
-                <td width="33%">OOP</td>
-                <td width="33%">Web APIs</td>
-                <td width="33%">Adobe Illustrator / InDesign</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">Java</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">Spring MVC</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">SQL (MySQL)</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">Git/GitHub</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">Hibernate</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">HTML/CSS</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">Java</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">Spring MVC</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <p class="skillCard">SQL (MySQL)</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -86,50 +100,42 @@
         <ul class="list-unstyled">
           <li class="media">
             <div class="media-body firstPageP">
-              <h3 class="mt-0 mb-1 firstPageHeader">Minefield</h3>
-              This Minesweeper port was a lot of fun to make. Working with a partner, I first made a version of the game that used a .txt file to store and display the minefield and took user input for which square to uncover using a basic Java
-              compiler console. Once we had the basic logic down, I spent the weekend researching JSwing and created the GUI you can see in the accompanying GIF. It includes a soundtrack of music I recorded at my home studio and explosion sounds for
-              when the player loses.<small><em><a href="https://github.com/philliptaylormcgrath/Minefield-App" class="d-print-none d-md-block">See the code ...</a></em></small>
-            </div>
+              <h3><a href="https://github.com/philliptaylormcgrath/Minefield-App">MINEFIELD</a></h3>
+              <p class="codeCard">Java</p>
+              <p class="codeCard">JSwing</p>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe frameBorder="0" class="embed-responsive-item musicvid" id="gif" allowfullscreen></iframe>
+              </div>
+              </div>
           </li>
         </ul>
       </div>
-      <div class="col-lg-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe frameBorder="0" class="embed-responsive-item musicvid" id="gif" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-lg-6">
         <ul class="list-unstyled">
           <li class="media">
             <div class="media-body firstPageP">
-              <h3 class="mt-0 mb-1 firstPageHeader">TaskList</h3>
-              I made this task manager web app using SpringMVC and Hibernate. User accounts and their respective task lists are all stored in a MySQL database, which updates automatically as the user makes changes to their tasks on the web page. The
-              app includes password authentication, logic to prevent users from creating an account using an email that has already been registered, task sorting by due date and completeness, and search functionality.<small><em><a
-                    href="https://github.com/adamdepollo/Week6Capstone" class="d-print-none d-md-block">See the code ...</a></em></small>
+              <h3><a href="https://github.com/adamdepollo/Week6Capstone">TASKLIST</a></h3>
+            <p class="codeCard">Java</p>
+            <p class="codeCard">SpringMVC</p>
+            <p class="codeCard">Hibernate</p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe frameBorder="0" class="embed-responsive-item musicvid" id="tasklist" allowfullscreen src="tasklist.mp4"></iframe>
+            </div>
             </div>
           </li>
         </ul>
       </div>
+    </div>
+    <div class="row">
       <div class="col-lg-6">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe frameBorder="0" class="embed-responsive-item musicvid" id="tasklist" allowfullscreen src="tasklist.mp4"></iframe>
-        </div>
+
+      </div>
+      <div class="col-lg-6">
+
       </div>
     </div>
     <div class="m-3"></div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script>
-    $("#navMenu").resize(function() {
-      $('#godown').height($("#navMenu").height() + 10);
-    });
-    if ($("#navMenu").height() > $('#godown').height()) $('#godown').height($("#navMenu").height() + 10);
-  </script>
 </body>
 
 </html>
