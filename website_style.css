@@ -1,13 +1,18 @@
 #me {
-  max-width: 100%;
-  max-height: 100vh;
-  transition: 2s;
-  margin-left: 20vh;
-  margin-right: 20vh;
-  position: absolute;
+  height: 95vh;
 }
 #picDiv {
   width: 100%;
+  justify-content: center;
+}
+
+#homeBack {
+  position: absolute;
+  z-index: 0;
+  opacity: 100%;
+  width: 100%;
+  transition: 2s;
+  text-align: center;
 }
 
 #homeImage {
@@ -39,11 +44,40 @@
   background-size: cover;
 }
 
-/*
-.firstPageP {
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+.writingHover{
+  background-color: rgb(224,218,202);
 }
-*/
+.writingHeader h4 {
+  font-weight: bold;
+  transition: .5s;
+  border: 1pt solid;
+  border-radius: 10pt;
+}
+
+.writingHeader h5 {
+  font-weight: bold;
+}
+
+.writingChild {
+  max-width: 100%;
+  margin: 1%;
+  display: none;
+  transition: 1s;
+}
+
+.writingChild li {
+  padding-bottom: 1%;
+  border-bottom: 0.5pt solid;
+}
+
+.skillCard {
+  font-weight: bold;
+  border: 1pt solid;
+  border-radius: 10pt;
+  font-size: 12pt;
+  display: inline-block;
+  padding: 1% 2.5% ;
+}
 .imageDiv {
   align-content: center;
 }
